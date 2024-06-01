@@ -51,12 +51,12 @@ def main():
     # 筛选良好的匹配点
     good_matches12 = []
     for m, n in matches12:
-        if m.distance < 0.75 * n.distance:
+        if m.distance < 0.8 * n.distance:
             good_matches12.append(m)
 
     good_matches23 = []
     for m, n in matches23:
-        if m.distance < 0.75 * n.distance:
+        if m.distance < 0.8 * n.distance:
             good_matches23.append(m)
 
     num_good_matches12 = len(good_matches12)
@@ -167,6 +167,39 @@ def main():
     ax.set_zlabel('Z')
     ax.set_title('3D Reconstruction')
 
+    plt.show()
+
+    # 2D 可视化
+    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 5))
+
+    # 第一个子图
+    ax1.scatter(X[0], Y[0], c='r', marker='o')
+    ax1.scatter(camera1_pos[0], camera1_pos[1], c='b', marker='^', s=100)
+    ax1.scatter(camera2_pos[0], camera2_pos[1], c='g', marker='^', s=100)
+    ax1.scatter(camera3_pos[0], camera3_pos[1], c='y', marker='^', s=100)
+    ax1.set_xlabel('X')
+    ax1.set_ylabel('Y')
+    ax1.set_title('2D Reconstruction - View 1')
+
+    # 第二个子图
+    ax2.scatter(X[0], Z[0], c='r', marker='o')
+    ax2.scatter(camera2_pos[0], camera2_pos[2], c='g', marker='^', s=100)
+    ax2.scatter(camera1_pos[0], camera1_pos[2], c='b', marker='^', s=100)
+    ax2.scatter(camera3_pos[0], camera3_pos[2], c='y', marker='^', s=100)
+    ax2.set_xlabel('X')
+    ax2.set_ylabel('Z')
+    ax2.set_title('2D Reconstruction - View 2')
+
+    # 第三个子图
+    ax3.scatter(Y[0], Z[0], c='r', marker='o')
+    ax3.scatter(camera3_pos[1], camera3_pos[2], c='y', marker='^', s=100)
+    ax3.scatter(camera1_pos[1], camera1_pos[2], c='b', marker='^', s=100)
+    ax3.scatter(camera2_pos[1], camera2_pos[2], c='g', marker='^', s=100)
+    ax3.set_xlabel('Y')
+    ax3.set_ylabel('Z')
+    ax3.set_title('2D Reconstruction - View 3')
+
+    plt.tight_layout()
     plt.show()
 
 
