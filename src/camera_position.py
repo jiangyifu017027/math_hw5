@@ -10,18 +10,18 @@ def main():
     img3 = cv2.imread("./images/image2.png")
 
     # 检验图像是否正确读入
-    fig, axes = plt.subplots(1, 3, figsize=(15, 5))
-
-    axes[0].imshow(cv2.cvtColor(img1, cv2.COLOR_BGR2RGB))
-    axes[0].set_title('Image 1')
-
-    axes[1].imshow(cv2.cvtColor(img2, cv2.COLOR_BGR2RGB))
-    axes[1].set_title('Image 2')
-
-    axes[2].imshow(cv2.cvtColor(img3, cv2.COLOR_BGR2RGB))
-    axes[2].set_title('Image 3')
-
-    plt.show()
+    # fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+    #
+    # axes[0].imshow(cv2.cvtColor(img1, cv2.COLOR_BGR2RGB))
+    # axes[0].set_title('Image 1')
+    #
+    # axes[1].imshow(cv2.cvtColor(img2, cv2.COLOR_BGR2RGB))
+    # axes[1].set_title('Image 2')
+    #
+    # axes[2].imshow(cv2.cvtColor(img3, cv2.COLOR_BGR2RGB))
+    # axes[2].set_title('Image 3')
+    #
+    # plt.show()
 
     # 检测并匹配特征点
     sift = cv2.SIFT_create()
