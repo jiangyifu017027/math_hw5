@@ -11,7 +11,7 @@ def reprojection_error(params):
 
     # 计算重投影误差
     error = []
-    for i in range(len(pts1)):
+    for i in range(len(points3d)):
         # 将三维点坐标投影到图像平面
         proj_pt1 = project_point(points3d[i], camera_poses[:, :3], camera_poses[:, 3])
         proj_pt2 = project_point(points3d[i], camera_poses[:, 4:7], camera_poses[:, 7:10])
