@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  1 JUN 2024 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  1 JUN 2024 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,97 +884,98 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 )
 (c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (./Report.aux)
+)
+No file Report.aux.
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 68.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 68.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 68.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 68.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 68.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 68.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 68.
-LaTeX Font Info:    Redeclaring math accent \check on input line 68.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 68.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 68.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 68.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 68.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 69.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 69.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 69.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 69.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 69.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 69.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 69.
+LaTeX Font Info:    Redeclaring math accent \check on input line 69.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 69.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 69.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 69.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 69.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 68.
+(Font)              `operators' in the math version `normal' on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 68.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 69.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 68.
+(Font)              `operators' in the math version `bold' on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 68.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 68.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 68.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 68.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 68.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 68.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 69.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 68.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 68.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 68.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 69.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 68.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 69.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 68.
-
-(./Report.out) (./Report.out)
+Package hyperref Info: Link coloring ON on input line 69.
 \@outlinefile=\write3
 \openout3 = `Report.out'.
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1010,12 +1011,12 @@ Package hyperref Info: Link coloring ON on input line 68.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 68.
-Package microtype Info: Applying patch `item' on input line 68.
-Package microtype Info: Applying patch `toc' on input line 68.
-Package microtype Info: Applying patch `eqnum' on input line 68.
-Package microtype Info: Applying patch `footnote' on input line 68.
-Package microtype Info: Applying patch `verbatim' on input line 68.
+LaTeX Info: Redefining \microtypecontext on input line 69.
+Package microtype Info: Applying patch `item' on input line 69.
+Package microtype Info: Applying patch `toc' on input line 69.
+Package microtype Info: Applying patch `eqnum' on input line 69.
+Package microtype Info: Applying patch `footnote' on input line 69.
+Package microtype Info: Applying patch `verbatim' on input line 69.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -1078,7 +1079,7 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 105
+LaTeX Font Info:    Trying to load font information for U+msa on input line 106
 .
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1086,7 +1087,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (c:/texlive/2023/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 105
+LaTeX Font Info:    Trying to load font information for U+msb on input line 106
 .
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1100,61 +1101,181 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
-5.
+6.
 
 (c:/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 [2
 
-] (./Report.toc
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 3.
-
-)
+]
+No file Report.toc.
 \tf@toc=\write4
 \openout4 = `Report.toc'.
 
- [3]
+[3]
 File: flow_chart.png Graphic file (type bmp)
 <flow_chart.png>
- [4] [5]
+ [4]
+
+LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 145.
+
+[5]
+
+LaTeX Warning: Reference `zuobiao' on page 6 undefined on input line 166.
+
 File: zuobiao.png Graphic file (type bmp)
 <zuobiao.png>
- [6] [7] [8]
+
+LaTeX Warning: Reference `eq1' on page 6 undefined on input line 174.
+
+
+LaTeX Warning: Reference `eq2' on page 6 undefined on input line 179.
+
+[6]
+
+LaTeX Warning: Reference `eq1' on page 7 undefined on input line 191.
+
+
+LaTeX Warning: Reference `eq1' on page 7 undefined on input line 193.
+
+
+LaTeX Warning: Reference `eq1.1' on page 7 undefined on input line 193.
+
+
+LaTeX Warning: Reference `eq3' on page 7 undefined on input line 209.
+
+
+LaTeX Warning: Reference `eq1.1' on page 7 undefined on input line 231.
+
+
+LaTeX Warning: Reference `eq4' on page 7 undefined on input line 240.
+
+
+LaTeX Warning: Reference `eq3' on page 7 undefined on input line 250.
+
+[7]
+
+LaTeX Warning: Reference `eq1' on page 8 undefined on input line 270.
+
+
+LaTeX Warning: Reference `eq5' on page 8 undefined on input line 292.
+
+[8]
+
+LaTeX Warning: Reference `duomu' on page 9 undefined on input line 337.
+
 File: duomu.png Graphic file (type bmp)
 <duomu.png>
- [9]
 
-LaTeX Warning: Reference `10' on page 10 undefined on input line 370.
+LaTeX Warning: Reference `eq6' on page 9 undefined on input line 352.
+
+
+LaTeX Warning: Reference `eq6' on page 9 undefined on input line 357.
+
+
+LaTeX Warning: Reference `eq7' on page 9 undefined on input line 357.
+
+[9]
+
+LaTeX Warning: Reference `10' on page 10 undefined on input line 371.
+
+
+LaTeX Warning: Reference `babiao' on page 10 undefined on input line 374.
 
 File: babiao.png Graphic file (type bmp)
 <babiao.png>
 File: babiao_A_change.png Graphic file (type bmp)
 <babiao_A_change.png>
 
-Overfull \hbox (2.33975pt too wide) in paragraph at lines 375--387
+Overfull \hbox (2.33975pt too wide) in paragraph at lines 376--388
 []$[]$ $[]$ 
  []
 
+
+LaTeX Warning: Reference `babiao_A_change' on page 10 undefined on input line 3
+90.
+
 [10]
+
+LaTeX Warning: Reference `babiao_change' on page 11 undefined on input line 394
+.
+
+
+LaTeX Warning: Reference `babiao_change1' on page 11 undefined on input line 39
+6.
+
 File: babiao_change.png Graphic file (type bmp)
 <babiao_change.png>
 File: babiao_change1.png Graphic file (type bmp)
 <babiao_change1.png>
 
-Overfull \hbox (2.33975pt too wide) in paragraph at lines 397--409
+Overfull \hbox (2.33975pt too wide) in paragraph at lines 398--410
 []$[]$ $[]$ 
  []
 
+
+LaTeX Warning: Reference `eq1' on page 11 undefined on input line 412.
+
+
+LaTeX Warning: Reference `babiao_gongqiexian' on page 11 undefined on input lin
+e 414.
+
 File: babiao_gongqiexian.png Graphic file (type bmp)
 <babiao_gongqiexian.png>
-[11] [12] [13] (./Report.aux)
+[11]
+
+LaTeX Warning: Reference `babiao_gongqiexian' on page 12 undefined on input lin
+e 422.
+
+
+LaTeX Warning: Reference `eq1' on page 12 undefined on input line 432.
+
+
+LaTeX Warning: Reference `eq8' on page 12 undefined on input line 451.
+
+[12]
+
+LaTeX Warning: Reference `eq9' on page 13 undefined on input line 462.
+
+
+LaTeX Warning: Reference `eq1' on page 13 undefined on input line 467.
+
+File: alg-1.png Graphic file (type bmp)
+<alg-1.png>
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+[13] [14] (./Report.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -1162,16 +1283,25 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: F8A37130184ED4E2480261F2B3808F68;1779.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Report.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  36B67EA598B62C9524D7B050B69A9046;1803.
  ) 
 Here is how much of TeX's memory you used:
- 25101 strings out of 476683
- 516488 string characters out of 5807574
- 1869012 words of memory out of 5000000
- 44911 multiletter control sequences out of 15000+600000
- 528611 words of font info for 130 fonts, out of 8000000 for 9000
+ 25334 strings out of 476683
+ 520276 string characters out of 5807574
+ 1892012 words of memory out of 5000000
+ 45134 multiletter control sequences out of 15000+600000
+ 528683 words of font info for 139 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,12n,97p,1003b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,12n,97p,1003b,1534s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Report.pdf (13 pages).
+Output written on Report.pdf (14 pages).

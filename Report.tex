@@ -21,6 +21,7 @@
 \usepackage{listings}
 \usepackage{metalogo}
 
+
 \setcounter{section}{-1}
 \numberwithin{equation}{section}						%公式按章节编号
 \numberwithin{figure}{section}							%图表按章节编号
@@ -62,7 +63,7 @@
 \titleformat*{\subsection}{\bfseries\large}
 
 \title{{\heiti\huge{数码相机定位}}}
-\author{\large{马祥超，姜一夫，胡泷}\\(中国科学技术大学，物理学院，合肥 230000)}
+\author{\large{马祥超，姜一夫，胡泷}\\(中国科学技术大学，物理学院/大数据学院，合肥 230000)}
 \date{\today}
 
 \begin{document}
@@ -465,7 +466,58 @@
 	\end{equation}
 	在求得 $\bm Y$ 之后，即可用式 \ref{eq1} 求出圆心 ${\bm x_0}$ 的像素坐标。
 	\section{模型实现及结果}
-	\section{总结}
+
+按照前面我们给出的算法，现在我们以三目定位为例对该模型进行实现。我们的实现按照如下步骤:
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.35\linewidth]{alg-1.png}
+		\caption{模型实现流程}
+	\end{figure}
+
+我们使用open-cv库协助实现特征点的检测与匹配：
+
+\begin{lstlisting}
+    # 检测并匹配特征点
+    sift = cv2.SIFT_create()
+    kp1, des1 = sift.detectAndCompute(img1, None)
+    kp2, des2 = sift.detectAndCompute(img2, None)
+    kp3, des3 = sift.detectAndCompute(img3, None)
+
+    bf = cv2.BFMatcher()
+    matches12 = bf.knnMatch(des1, des2, k=2)
+    matches23 = bf.knnMatch(des2, des3, k=2)
+
+    good_matches12 = []
+    for m, n in matches12:
+        if m.distance < 0.8 * n.distance:
+            good_matches12.append(m)
+
+    good_matches23 = []
+    for m, n in matches23:
+        if m.distance < 0.8 * n.distance:
+            good_matches23.append(m)
+
+    num_good_matches12 = len(good_matches12)
+    num_good_matches23 = len(good_matches23)
+
+    target_size = min(num_good_matches12, num_good_matches23)
+
+    if num_good_matches12 > target_size:
+        good_matches12 = good_matches12[:target_size]
+    if num_good_matches23 > target_size:
+        good_matches23 = good_matches23[:target_size]
+\end{lstlisting}
+
+
+\textbf{实验结果展示}
+
+
+
+	\section{总结与分工}
+
+
+
 	
 \end{sloppypar}
 	\begin{thebibliography}{99}
