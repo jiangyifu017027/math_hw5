@@ -5,9 +5,14 @@ import os
 
 def main():
     # 读取输入照片
-    img1 = cv2.imread("./images/image1.png")
-    img2 = cv2.imread("./images/image2.png")
-    img3 = cv2.imread("./images/image2.png")
+    current_dir = os.getcwd()  # 获取当前工作目录
+    path_of_img1 = os.path.join(current_dir, "src/images/image1.png") 
+    path_of_img2 = os.path.join(current_dir, "src/images/image2.png") 
+    path_of_img3 = os.path.join(current_dir, "src/images/image3.png") 
+    img1 = cv2.imread(path_of_img1)
+    img2 = cv2.imread(path_of_img2)
+    img3 = cv2.imread(path_of_img3)
+
 
     # img4 = cv2.imread("../3d-1.png")
     # img5 = cv2.imread("../3d-2.png")
