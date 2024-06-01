@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  1 JUN 2024 21:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.12.27)  1 JUN 2024 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1118,4 +1118,98 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
 
 )
 \tf@toc=\write4
-\o
+\openout4 = `Report.toc'.
+
+ [3]
+File: flow_chart.png Graphic file (type bmp)
+<flow_chart.png>
+ [4] [5]
+File: zuobiao.png Graphic file (type bmp)
+<zuobiao.png>
+ [6] [7] [8]
+File: duomu.png Graphic file (type bmp)
+<duomu.png>
+ [9]
+
+LaTeX Warning: Reference `10' on page 10 undefined on input line 371.
+
+File: babiao.png Graphic file (type bmp)
+<babiao.png>
+File: babiao_A_change.png Graphic file (type bmp)
+<babiao_A_change.png>
+
+Overfull \hbox (2.33975pt too wide) in paragraph at lines 376--388
+[]$[]$ $[]$ 
+ []
+
+[10]
+File: babiao_change.png Graphic file (type bmp)
+<babiao_change.png>
+File: babiao_change1.png Graphic file (type bmp)
+<babiao_change1.png>
+
+Overfull \hbox (2.33975pt too wide) in paragraph at lines 398--410
+[]$[]$ $[]$ 
+ []
+
+File: babiao_gongqiexian.png Graphic file (type bmp)
+<babiao_gongqiexian.png>
+[11] [12]
+File: alg-1.png Graphic file (type bmp)
+<alg-1.png>
+
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+(fontspec)             doesn't exist).
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ [13]
+File: images4.png Graphic file (type bmp)
+<images4.png>
+File: 3d-3.png Graphic file (type bmp)
+<3d-3.png>
+ [14]
+File: 2d.png Graphic file (type bmp)
+<2d.png>
+ [15] [16] (./Report.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Report.out' has not changed.
+(rerunfilecheck)             Checksum: 36B67EA598B62C9524D7B050B69A9046;1803.
+ ) 
+Here is how much of TeX's memory you used:
+ 25370 strings out of 476683
+ 520709 string characters out of 5807574
+ 1885012 words of memory out of 5000000
+ 45159 multiletter control sequences out of 15000+600000
+ 528683 words of font info for 139 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 89i,12n,97p,1003b,1519s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Report.pdf (16 pages).

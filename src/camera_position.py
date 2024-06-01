@@ -9,6 +9,19 @@ def main():
     img2 = cv2.imread("./images/image2.png")
     img3 = cv2.imread("./images/image2.png")
 
+    # img4 = cv2.imread("../3d-1.png")
+    # img5 = cv2.imread("../3d-2.png")
+    #
+    # fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+    #
+    # axes[0].imshow(cv2.cvtColor(img4, cv2.COLOR_BGR2RGB))
+    # axes[0].set_title('3d-1 perspective')
+    #
+    # axes[1].imshow(cv2.cvtColor(img5, cv2.COLOR_BGR2RGB))
+    # axes[1].set_title('3d-2 perspective')
+    #
+    # plt.show()
+
     # 检验图像是否正确读入
     # fig, axes = plt.subplots(1, 3, figsize=(15, 5))
     #
