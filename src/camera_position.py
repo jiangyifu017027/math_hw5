@@ -64,8 +64,8 @@ def main():
 
     target_size = min(num_good_matches12, num_good_matches23)
 
-    good_matches12.sort(key=lambda x: x.distance)
-    good_matches23.sort(key=lambda x: x.distance)
+    # good_matches12.sort(key=lambda x: x.distance)
+    # good_matches23.sort(key=lambda x: x.distance)
 
     if num_good_matches12 > target_size:
         good_matches12 = good_matches12[:target_size]
