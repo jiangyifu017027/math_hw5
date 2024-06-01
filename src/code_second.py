@@ -3,6 +3,8 @@ import numpy as np
 from scipy.optimize import least_squares
 import matplotlib.pyplot as plt
 
+import os
+
 
 def reprojection_error(params):
     # 从params中提取相机位姿和三维点坐标
@@ -31,9 +33,13 @@ def project_point(point3d, rotation, translation):
 
 
 # 读取输入照片
-img1 = cv2.imread('../images/image1.png')
-img2 = cv2.imread('../images/image2.png')
-img3 = cv2.imread('../images/image3.png')
+current_dir = os.getcwd()  # 获取当前工作目录
+path_of_img1 = os.path.join(current_dir, "src/images/image1.png") 
+path_of_img2 = os.path.join(current_dir, "src/images/image2.png") 
+path_of_img3 = os.path.join(current_dir, "src/images/image3.png") 
+img1 = cv2.imread(path_of_img1)
+img2 = cv2.imread(path_of_img2)
+img3 = cv2.imread(path_of_img3)
 
 # 检测并匹配特征点
 sift = cv2.SIFT_create()
